@@ -35,7 +35,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8084223356:AAH0f9ib-iOJlt4xZWPH3r8GecTdVvjYcrE")
+TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8084223356:AAFQAjulnzkX_qL92xW5emWkmU5MW5-rgsI")
 HORA_ENVIO = time(8, 0, 0, tzinfo=pytz.timezone('America/Mexico_City'))
 BASE_URL = "https://www.horoscopodehoy.net"
 CANAL_ID = "@horoscopodehoynet"  # Cambiar a "@tucanal" o "-100123456789" para habilitar envío a canales
